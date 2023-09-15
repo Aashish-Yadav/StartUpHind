@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0; 
+    overflow: hidden;   
+    font-family:  Georgia, serif;
+}
+
+body{        
+    background-image: linear-gradient(200deg,#5d704f,#123376);
+    width:100%;
+    height:auto;              
+}
+
+.container{
+    display:flex;
+    text-align: center;
+    text-transform:uppercase;
+    width:100%;
+    height: 100%;
+    /* background-color: blue; */
+    /* background-color: black; */
+}
+
+.marg-top{
+    margin-top:20%;
+    /* margin-bottom:20%; */
+}
+
+.fund-ed{
+    width:50%;
+    height:300px;
+    font-size: 32px;
+    color:#fff;
+    /* background-color: brown; */
+}
+
+#vertical{
+    width:1px;
+    height:500px;
+    margin-top:100px;
+    background-color: black;
+}
+
+.market-ed{
+    width:50%;
+    height:400px;
+    font-size: 32px;
+    color:#fff;
+    /* background-color: brown; */
+}
+
+.btn{
+    padding:8px 60px;
+    background-color: #1e73be;
+    border: 1px solid #1e73be;
+    color:white;
+    cursor: pointer;
+    text-transform:uppercase;
+    border-radius:10px;
+    margin-top:30px;
+}
+
+.logo{
+    width:150px;
+}
+
+.div-dis{
+    margin-bottom:50px
+}
+
+.copr{
+    text-align: center;
+    margin-bottom:150px;
+}
+
+@media only screen and (max-width: 600px){
+ .leftbtn{
+    margin-top:30px;
+ }
+
+
+ .fund-ed{
+    font-size:26px;
+ }
+
+ .market-ed{
+    font-size:26px;
+ }
+ #vertical{
+    height:300px;
+    margin-top:50px;
+ }
+
+ .copr{
+    margin-top:30px;
+ }
+}
+
+@media only screen and  (max-width: 768px){
+    .main-container{
+        margin-top: 20%;
+    }
+ }
+
+
+
+
+
